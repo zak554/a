@@ -119,10 +119,8 @@ source ./scripts/run.sh --ngrok
 
 - [x] Add evaluation.
 - [x] Better Document Processing.
-- [ ] Support better Embedding Model for Vietnamese and other languages.
+- [ ] Support better Embedding Model for  other languages.
 - [ ] ReAct Agent.
 - [ ] Document mangement (Qrdant, MongoDB,...)
 
 ## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=datvodinh/rag-chatbot&type=Date)](https://star-history.com/#datvodinh/rag-chatbot&Date)
