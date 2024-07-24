@@ -278,20 +278,14 @@ class LocalChatbotUI:
                             )
                             language = gr.Radio(
                                 label="Language",
-                                choices=["vi", "eng"],
+                                choices=["eng"],
                                 value="eng",
                                 interactive=True,
                             )
                             model = gr.Dropdown(
                                 label="Choose Model:",
                                 choices=[
-                                    "llama3-chatqa:8b-v1.5-q8_0",
-                                    "llama3-chatqa:8b-v1.5-q6_K",
                                     "llama3:8b-instruct-q8_0",
-                                    "starling-lm:7b-beta-q8_0",
-                                    "mixtral:instruct",
-                                    "nous-hermes2:10.7b-solar-q4_K_M",
-                                    "codeqwen:7b-chat-v1.5-q5_1",
                                 ],
                                 value=None,
                                 interactive=True,
