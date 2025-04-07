@@ -49,7 +49,7 @@ ui = LocalChatbotUI(
     avatar_images=AVATAR_IMAGES
 )
 
-ui.build().launch(
+ui.build(share=True).launch(
     share=args.share,
     server_name="0.0.0.0",
     debug=False,
