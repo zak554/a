@@ -49,9 +49,10 @@ ui = LocalChatbotUI(
     avatar_images=AVATAR_IMAGES
 )
 
-ui.build(share=True).launch(
-    share=args.share,
-    server_name="0.0.0.0",
+ui.build().launch(
+    share=True,               # 👉 permet d'ouvrir un lien public (important pour Colab/Kaggle)
+    server_name="0.0.0.0",    # 👉 option nécessaire pour que ça fonctionne dans certains environnements cloud
     debug=False,
     show_api=False
 )
+
